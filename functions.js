@@ -25,12 +25,16 @@ function whichIsSmaller(){
 }
 
 
-//Write a function that concatenates n number of string together
+//Write a function that concatenates n number of strings together
 
-var catString = "";
+
 function concatInput () {
+  var catString = "";
+  var counter = document.getElementById("counter").value
   var inputString1 = document.getElementById("inputString1").value
-  catString += inputString1;
+  for (var i = counter; i > 0; i--) {
+    catString += inputString1;
+  }
   alert("The string is " + catString);  
 }
 

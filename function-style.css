@@ -5,7 +5,11 @@ body {
 form {
   text-align: center;
 }
-#inputString, #inputFirst, #inputSecond, #inputString1  {
+
+form2 {
+  text-align: left;
+}
+#inputString, #inputFirst, #inputSecond, #inputString1, #counter {
   height: 25px;
   border-color: blue;
 }
