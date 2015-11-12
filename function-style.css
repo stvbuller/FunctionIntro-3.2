@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+
+form {
+  text-align: center;
+}
+#inputString, #inputFirst, #inputSecond, #inputString1  {
+  height: 25px;
+  border-color: blue;
+}
+
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+button {
+  border-color: lightblue;
+  text-align: center;
+}

@@ -18,17 +18,21 @@ function whichIsSmaller(){
   var inputSecond = document.getElementById("inputSecond").value
 
   if (inputFirst > inputSecond){
-    alert("The second input is smaller")
+    alert("The second input is smaller");
   } else {
-    alert("The first input is smaller")
+    alert("The first input is smaller");
   }
 }
 
-/*
+
 //Write a function that concatenates n number of string together
 
+var catString = "";
 function concatInput () {
   var inputString1 = document.getElementById("inputString1").value
-  alert("The string is " + inputString1)  
+  catString += inputString1;
+  alert("The string is " + catString);  
 }
-*/
+
+
+
